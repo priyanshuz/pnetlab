@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SuperPutty.telnet]
+@="telnet"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SuperPutty.telnet\DefaultIcon]
+@="C:\\Program Files (x86)\\SuperPuTTY\\SuperPutty.exe, 0"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SuperPutty.telnet\shell]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SuperPutty.telnet\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SuperPutty.telnet\shell\open\command]
+@="\"C:\\Program Files (x86)\\SuperPuTTY\\SuperPutty.exe\" %1"
+
+[HKEY_CURRENT_USER\SOFTWARE\SuperPutty]
+
+[HKEY_CURRENT_USER\SOFTWARE\SuperPutty\Capabilities]
+
+[HKEY_CURRENT_USER\SOFTWARE\SuperPutty\Capabilities\URLAssociations]
+"telnet"="SuperPutty.telnet"
+
+[HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
+"SuperPutty"="Software\\SuperPutty\\Capabilities"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell\open]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell\open\command]
+@="\"C:\\Program Files (x86)\\SuperPuTTY\\SuperPutty.exe\" %1"
